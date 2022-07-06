@@ -22,6 +22,14 @@ target/
 /ivy*
 /eclipse
 
+/shopping-web/shopping-api-admin/src/main/resources/application-dev.yml
+/shopping-web/shopping-api-admin/src/main/resources/application-prod.yml
+/shopping-web/shopping-api-admin/src/main/resources/application-test.yml
+
+/shopping-web/shopping-api-user/src/main/resources/application-dev.yml
+/shopping-web/shopping-api-user/src/main/resources/application-prod.yml
+/shopping-web/shopping-api-user/src/main/resources/application-test.yml
+
 # default HSQL database files for production mode
 /prodDb.*
 

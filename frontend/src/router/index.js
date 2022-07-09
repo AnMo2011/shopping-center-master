@@ -55,33 +55,39 @@ export const constantRoutes = [
     }]
   },
 
-  // {
-  //   path: '/ams',
-  //   component: Layout,
-  //   redirect: '/ams/banner',
-  //   name: 'Ams',
-  //   meta: { title: '基础管理', icon: 'el-icon-s-help' },
-  //   children: [
-  //     {
-  //       path: 'banner',
-  //       name: 'Banner',
-  //       component: () => import('@/views/ams/banner/index'),
-  //       meta: { title: '轮播图管理', icon: 'dashboard' }
-  //     },
-  //     {
-  //       path: 'brand',
-  //       name: 'Brand',
-  //       component: () => import('@/views/ams/brand/index'),
-  //       meta: { title: '品牌管理', icon: 'tree' }
-  //     },
-  //     {
-  //       path: 'category',
-  //       name: 'Category',
-  //       component: () => import('@/views/ams/category/index'),
-  //       meta: { title: '商品分类', icon: 'tree' }
-  //     }
-  //   ]
-  // },
+  {
+    path: '/ams',
+    component: Layout,
+    redirect: '/ams/account',
+    name: 'Ams',
+    meta: { title: '基础管理', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'account',
+        name: 'Account',
+        component: () => import('@/views/ams/account/index'),
+        meta: { title: '平台账户管理', icon: 'dashboard' }
+      },
+      {
+        path: 'banner',
+        name: 'Banner',
+        component: () => import('@/views/ams/banner/index'),
+        meta: { title: '轮播图管理', icon: 'dashboard' }
+      },
+      {
+        path: 'brand',
+        name: 'Brand',
+        component: () => import('@/views/ams/brand/index'),
+        meta: { title: '品牌管理', icon: 'tree' }
+      },
+      {
+        path: 'category',
+        name: 'Category',
+        component: () => import('@/views/ams/category/index'),
+        meta: { title: '商品分类', icon: 'tree' }
+      }
+    ]
+  },
 
   // {
   //   path: '/ims',

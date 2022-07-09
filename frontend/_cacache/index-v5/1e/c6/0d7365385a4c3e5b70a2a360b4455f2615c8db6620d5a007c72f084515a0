@@ -1,0 +1,2 @@
+
+fff54e659da5dff721be38fe61ed5f8f2ecc4ed6	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/eslint/6.7.2/eslint-6.7.2.tgz","integrity":"sha1-wXcHykrXstivmGoz/rpx4Yqf7NE=","time":1657264624063,"size":591962,"metadata":{"time":1657264578929,"url":"https://cdn.npmmirror.com/packages/eslint/6.7.2/eslint-6.7.2.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 14:07:29 GMT","etag":"\"DE5EC061C93DE3E6E1BF889D8693BA37\"","last-modified":"Wed, 26 Jan 2022 13:21:31 GMT"}}}

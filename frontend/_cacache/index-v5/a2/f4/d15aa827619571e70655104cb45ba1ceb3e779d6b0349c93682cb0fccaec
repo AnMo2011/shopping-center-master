@@ -1,0 +1,2 @@
+
+e624021a3dbcc05cb0de51f39b371ab033a1be50	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/functional-red-black-tree","integrity":null,"time":1657264516710,"size":"262","metadata":{"time":1657264516710,"url":"https://registry.npm.taobao.org/functional-red-black-tree","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:16 GMT","location":"https://registry.npmmirror.com/functional-red-black-tree"},"status":301}}

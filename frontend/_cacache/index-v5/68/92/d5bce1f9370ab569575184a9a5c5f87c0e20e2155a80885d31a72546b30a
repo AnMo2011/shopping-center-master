@@ -1,0 +1,2 @@
+
+f27029d770fd9254150428cf605d59e6a4b963b5	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/object-hash","integrity":null,"time":1657264520287,"size":"262","metadata":{"time":1657264520287,"url":"https://registry.npm.taobao.org/object-hash","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:19 GMT","location":"https://registry.npmmirror.com/object-hash"},"status":301}}

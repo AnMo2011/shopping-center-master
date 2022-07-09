@@ -1,0 +1,2 @@
+
+65270efa957ff84d8cb49ed4e3f8d7304d719347	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/os-tmpdir","integrity":null,"time":1657264520557,"size":"262","metadata":{"time":1657264520557,"url":"https://registry.npm.taobao.org/os-tmpdir","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:20 GMT","location":"https://registry.npmmirror.com/os-tmpdir"},"status":301}}

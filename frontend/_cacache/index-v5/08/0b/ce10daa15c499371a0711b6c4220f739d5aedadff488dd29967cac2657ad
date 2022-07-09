@@ -1,0 +1,2 @@
+
+4a8fb3404a7b0d689dffbef30e4c9640cd0496cd	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/abab/2.0.5/abab-2.0.5.tgz","integrity":"sha1-wLZ4+zLWD8EhnHhNaoJv44Wut5o=","time":1657264581720,"size":4964,"metadata":{"time":1657264567233,"url":"https://cdn.npmmirror.com/packages/abab/2.0.5/abab-2.0.5.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 07:18:04 GMT","etag":"\"4D557842F7F398BB1BA697556CD96366\"","last-modified":"Wed, 26 Jan 2022 15:18:20 GMT"}}}

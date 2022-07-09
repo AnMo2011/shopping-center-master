@@ -1,0 +1,2 @@
+
+a771e488a91e28b8a4cf59ffac3ced53b69919bc	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/rxjs","integrity":null,"time":1657264522471,"size":"262","metadata":{"time":1657264522471,"url":"https://registry.npm.taobao.org/rxjs","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:21 GMT","location":"https://registry.npmmirror.com/rxjs"},"status":301}}

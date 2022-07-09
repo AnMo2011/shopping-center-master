@@ -1,0 +1,2 @@
+
+ed2dd15171e481e97d49f82f613045133cc63bac	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/flatted","integrity":null,"time":1657264516506,"size":"262","metadata":{"time":1657264516506,"url":"https://registry.npm.taobao.org/flatted","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:15 GMT","location":"https://registry.npmmirror.com/flatted"},"status":301}}

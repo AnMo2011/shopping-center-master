@@ -1,0 +1,2 @@
+
+035bd818529a74b93f514a906368bac56bc4300b	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/walker/1.0.7/walker-1.0.7.tgz","integrity":"sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=","time":1657264549452,"size":2269,"metadata":{"time":1657264545161,"url":"https://cdn.npmmirror.com/packages/walker/1.0.7/walker-1.0.7.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 14:57:24 GMT","etag":"\"0205AC71DD2D2C1EC51AE5B9E25B9225\"","last-modified":"Wed, 26 Jan 2022 13:30:14 GMT"}}}

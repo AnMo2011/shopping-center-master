@@ -1,0 +1,2 @@
+
+547bc21ea88917385b0e3fd0a7d918133ca1e6de	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/flatted/2.0.2/flatted-2.0.2.tgz","integrity":"sha1-RXWyHivO50NKqb5mL0t7X5wrUTg=","time":1657264580744,"size":5665,"metadata":{"time":1657264576714,"url":"https://cdn.npmmirror.com/packages/flatted/2.0.2/flatted-2.0.2.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 10:28:01 GMT","etag":"\"DB0B5CF7C700F5DC867916A7BFA7C548\"","last-modified":"Wed, 26 Jan 2022 13:25:32 GMT"}}}

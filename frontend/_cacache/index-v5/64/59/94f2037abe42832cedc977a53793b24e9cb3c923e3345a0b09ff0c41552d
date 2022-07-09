@@ -1,0 +1,2 @@
+
+7f6a1d990a0ac2b9080a1ab2a9d851e042af35d9	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@node-ipc%2fjs-queue","integrity":null,"time":1657265398724,"size":"262","metadata":{"time":1657265398724,"url":"https://registry.npm.taobao.org/@node-ipc%2fjs-queue","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:29:58 GMT","location":"https://registry.npmmirror.com/@node-ipc%2fjs-queue"},"status":301}}

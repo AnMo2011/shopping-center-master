@@ -1,0 +1,2 @@
+
+04ad935ac6e5d83f61782937befe2579b3c7fbf8	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/doctrine","integrity":null,"time":1657264515221,"size":"262","metadata":{"time":1657264515220,"url":"https://registry.npm.taobao.org/doctrine","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:14 GMT","location":"https://registry.npmmirror.com/doctrine"},"status":301}}

@@ -1,0 +1,2 @@
+
+008410bde3f586961eb794b4eaec034d3b1655c9	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/sockjs/0.3.21/sockjs-0.3.21.tgz","integrity":"sha1-s0/7mOeWkwtgoM+hGQTWozmn1Bc=","time":1657264578597,"size":21956,"metadata":{"time":1657264546669,"url":"https://cdn.npmmirror.com/packages/sockjs/0.3.21/sockjs-0.3.21.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 22:20:20 GMT","etag":"\"B6C5316B1A87FC3F616BCBF75D46188D\"","last-modified":"Wed, 26 Jan 2022 13:19:43 GMT"}}}

@@ -4,6 +4,7 @@ import com.ejzblog.shopping.domain.AdminAccountDO;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ejzblog.shopping.model.dto.AdminAccountDTO;
 import com.ejzblog.shopping.model.query.AdminAccountQuery;
+import com.ejzblog.shopping.model.req.AccountReq;
 import com.ejzblog.shopping.model.req.AdminAccountLoginReq;
 import com.ejzblog.shopping.model.req.PasswordReq;
 import com.ejzblog.shopping.model.req.UpdateAccountInfoReq;
@@ -29,6 +30,7 @@ public interface AdminAccountService extends IService<AdminAccountDO> {
 
     /**
      * 按照Token查询账户信息
+     *
      * @param id 主键ID
      * @return 平台账户基本信息 {@link AdminAccountDTO}
      */
@@ -41,6 +43,15 @@ public interface AdminAccountService extends IService<AdminAccountDO> {
      * @return 集合
      */
     Pager<AdminAccountDTO> getAccountList(AdminAccountQuery query);
+
+    /**
+     * 创建
+     *
+     * @param req         参数
+     * @param operateUser 当前操作用户信息
+     * @return 主键ID
+     */
+    Long create(AccountReq req, AdminAccountDTO operateUser);
 
     /**
      * PC端-修改密码

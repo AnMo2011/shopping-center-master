@@ -1,0 +1,2 @@
+
+4197a8c7ad74f65cc326c2c7810648fae947ad36	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/json3/3.3.3/json3-3.3.3.tgz","integrity":"sha1-f8EON1/FrkLEcFpcwKpvYr4wW4E=","time":1657264569710,"size":22137,"metadata":{"time":1657264555319,"url":"https://cdn.npmmirror.com/packages/json3/3.3.3/json3-3.3.3.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 15:11:19 GMT","etag":"\"A86FCC265E6F9E3CEE531CA45BF0A839\"","last-modified":"Wed, 26 Jan 2022 14:41:24 GMT"}}}

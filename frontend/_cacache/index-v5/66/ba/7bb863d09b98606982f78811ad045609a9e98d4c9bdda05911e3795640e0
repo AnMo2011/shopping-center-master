@@ -1,0 +1,2 @@
+
+81a1d82f97cf0a1a4a800384fa68ad3f549c24a0	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/chardet","integrity":null,"time":1657264513428,"size":"262","metadata":{"time":1657264513428,"url":"https://registry.npm.taobao.org/chardet","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:12 GMT","location":"https://registry.npmmirror.com/chardet"},"status":301}}

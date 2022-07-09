@@ -1,0 +1,2 @@
+
+4c57d37e4f508038a18fc642f6dc976a79446370	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/progress","integrity":null,"time":1657264521597,"size":"262","metadata":{"time":1657264521597,"url":"https://registry.npm.taobao.org/progress","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:21 GMT","location":"https://registry.npmmirror.com/progress"},"status":301}}

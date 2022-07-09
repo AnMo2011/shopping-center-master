@@ -1,0 +1,2 @@
+
+d2f2dea9568554dfa28754c75b6f88a1db84b77e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esquery","integrity":null,"time":1657264515925,"size":"262","metadata":{"time":1657264515925,"url":"https://registry.npm.taobao.org/esquery","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:15 GMT","location":"https://registry.npmmirror.com/esquery"},"status":301}}

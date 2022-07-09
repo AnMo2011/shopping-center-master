@@ -1,0 +1,2 @@
+
+7257122e7fb9c3e99f61d7b8ebc3766d826a32c0	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/mute-stream","integrity":null,"time":1657264519873,"size":"262","metadata":{"time":1657264519873,"url":"https://registry.npm.taobao.org/mute-stream","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:19 GMT","location":"https://registry.npmmirror.com/mute-stream"},"status":301}}

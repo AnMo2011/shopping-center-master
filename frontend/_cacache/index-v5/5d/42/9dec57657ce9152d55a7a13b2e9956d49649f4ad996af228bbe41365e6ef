@@ -1,0 +1,2 @@
+
+d462fba76f94abd3f4ea30fe7ceec938070d7494	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/ip/1.1.5/ip-1.1.5.tgz","integrity":"sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=","time":1657264588364,"size":10014,"metadata":{"time":1657264573526,"url":"https://cdn.npmmirror.com/packages/ip/1.1.5/ip-1.1.5.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 10:48:45 GMT","etag":"\"210F892944C961249D4E915E796DEF9F\"","last-modified":"Wed, 26 Jan 2022 14:48:42 GMT"}}}

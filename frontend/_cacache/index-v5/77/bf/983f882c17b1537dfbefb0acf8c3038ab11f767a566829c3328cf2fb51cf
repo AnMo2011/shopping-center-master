@@ -1,0 +1,2 @@
+
+084eb8427083f073c53169a958fbf9d8cab03c5d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/utf-8-validate","integrity":null,"time":1657265413645,"size":"262","metadata":{"time":1657265413645,"url":"https://registry.npm.taobao.org/utf-8-validate","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:30:13 GMT","location":"https://registry.npmmirror.com/utf-8-validate"},"status":301}}

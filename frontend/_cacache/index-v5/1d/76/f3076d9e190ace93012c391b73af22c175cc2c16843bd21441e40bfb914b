@@ -1,0 +1,2 @@
+
+3652662b5604137fdcd61cbf641045a7dcb0d1ab	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/picocolors","integrity":null,"time":1657265397268,"size":"262","metadata":{"time":1657265397268,"url":"https://registry.npm.taobao.org/picocolors","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:29:56 GMT","location":"https://registry.npmmirror.com/picocolors"},"status":301}}

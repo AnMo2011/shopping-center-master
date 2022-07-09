@@ -1,0 +1,2 @@
+
+b496d8b5d55df664be5555636474c38000027d7c	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/jsprim/1.4.1/jsprim-1.4.1.tgz","integrity":"sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=","time":1657264569708,"size":10886,"metadata":{"time":1657264554917,"url":"https://cdn.npmmirror.com/packages/jsprim/1.4.1/jsprim-1.4.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 07:33:23 GMT","etag":"\"07FA4EFAD9F3688D08363E074A49E7DF\"","last-modified":"Wed, 26 Jan 2022 13:11:14 GMT"}}}

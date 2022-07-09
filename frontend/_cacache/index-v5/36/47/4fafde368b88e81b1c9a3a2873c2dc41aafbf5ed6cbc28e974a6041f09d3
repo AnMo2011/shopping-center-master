@@ -1,0 +1,2 @@
+
+ee7f99be783369eb7b5175990d61305a6980b66c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/flat-cache","integrity":null,"time":1657264516466,"size":"262","metadata":{"time":1657264516466,"url":"https://registry.npm.taobao.org/flat-cache","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:15 GMT","location":"https://registry.npmmirror.com/flat-cache"},"status":301}}

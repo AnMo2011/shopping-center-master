@@ -1,0 +1,2 @@
+
+2a0e87ba4c9ce8797eeb8228a0ad10137025573d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-weakref","integrity":null,"time":1657265409810,"size":"262","metadata":{"time":1657265409810,"url":"https://registry.npm.taobao.org/is-weakref","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:30:09 GMT","location":"https://registry.npmmirror.com/is-weakref"},"status":301}}

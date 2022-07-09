@@ -1,5 +1,6 @@
 package com.ejzblog.shopping.model.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -7,6 +8,7 @@ import lombok.ToString;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
@@ -58,5 +60,12 @@ public class AdminAccountDTO implements Serializable {
      */
     @ApiModelProperty(value = "启用状态：0->禁用；1->启用）", position = 600)
     private Integer useStatus;
+
+    /**
+     * 创建时间
+     */
+    @ApiModelProperty(value = "创建时间", position = 700)
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Shanghai")
+    private Date gmtCreate;
 
 }

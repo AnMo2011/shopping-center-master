@@ -1,0 +1,2 @@
+
+940b93f04eb34041faade3b02fba84bf45e92e5c	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/nanoid/3.1.25/nanoid-3.1.25.tgz","integrity":"sha1-CcoydHwOVD8OGBS303k0d/nI4VI=","time":1657264601876,"size":11225,"metadata":{"time":1657264564771,"url":"https://cdn.npmmirror.com/packages/nanoid/3.1.25/nanoid-3.1.25.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 12:47:34 GMT","etag":"\"CF82465D90A5F488901AA5B70EEED864\"","last-modified":"Wed, 26 Jan 2022 13:01:48 GMT"}}}

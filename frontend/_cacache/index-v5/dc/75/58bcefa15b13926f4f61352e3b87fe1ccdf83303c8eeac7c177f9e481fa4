@@ -1,0 +1,2 @@
+
+1519a5104f46264c406479eb6d3c79701704a1c8	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/har-schema/download/har-schema-2.0.0.tgz","integrity":null,"time":1657264545276,"size":"262","metadata":{"time":1657264545276,"url":"https://registry.npm.taobao.org/har-schema/download/har-schema-2.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:44 GMT","location":"https://registry.npmmirror.com/har-schema/download/har-schema-2.0.0.tgz"},"status":301}}

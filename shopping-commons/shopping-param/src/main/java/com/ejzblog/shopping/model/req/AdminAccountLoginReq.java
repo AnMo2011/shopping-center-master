@@ -27,7 +27,7 @@ public class AdminAccountLoginReq {
      */
     @NotBlank(message = "账号不能为空")
     @ApiModelProperty(value = "账号", position = 100)
-    private String account;
+    private String username;
 
     /**
      * 密码

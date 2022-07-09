@@ -1,0 +1,2 @@
+
+e0a6838d674c57064087d50617f1f811d02227bf	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/ms/2.1.1/ms-2.1.1.tgz","integrity":"sha1-MKWGTrPrsKZvLr5tcnrwagnYbgo=","time":1657264596325,"size":3028,"metadata":{"time":1657264593623,"url":"https://cdn.npmmirror.com/packages/ms/2.1.1/ms-2.1.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 07:29:34 GMT","etag":"\"44070CDADD7A6A5CC4C7DB550FAADDCC\"","last-modified":"Wed, 26 Jan 2022 12:56:11 GMT"}}}

@@ -1,0 +1,2 @@
+
+9f40d29fa9fb8105e15366ed3a5b8af7a08f8589	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/esquery/1.4.0/esquery-1.4.0.tgz","integrity":"sha1-IUj/w4uC6McFff7UhCWz5h8PJKU=","time":1657264608373,"size":160592,"metadata":{"time":1657264578537,"url":"https://cdn.npmmirror.com/packages/esquery/1.4.0/esquery-1.4.0.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 16:04:54 GMT","etag":"\"67C3703F159C91AE9BD06B896A863B19\"","last-modified":"Wed, 26 Jan 2022 13:02:59 GMT"}}}

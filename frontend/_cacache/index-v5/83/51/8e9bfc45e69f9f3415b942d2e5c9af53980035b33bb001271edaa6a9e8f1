@@ -1,0 +1,2 @@
+
+6cf58725f733dc0e2013fc335ff9f04d187ee390	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/fibers","integrity":null,"time":1657265392158,"size":"262","metadata":{"time":1657265392158,"url":"https://registry.npm.taobao.org/fibers","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:29:51 GMT","location":"https://registry.npmmirror.com/fibers"},"status":301}}

@@ -1,0 +1,2 @@
+
+77b6265262089fa043640751978f0fb64c8f3532	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/qs/6.5.2/qs-6.5.2.tgz","integrity":"sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=","time":1657264584994,"size":22345,"metadata":{"time":1657264556489,"url":"https://cdn.npmmirror.com/packages/qs/6.5.2/qs-6.5.2.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 07:32:25 GMT","etag":"\"222120EB1146B4919D75BF117B2D380F\"","last-modified":"Wed, 26 Jan 2022 12:54:34 GMT"}}}

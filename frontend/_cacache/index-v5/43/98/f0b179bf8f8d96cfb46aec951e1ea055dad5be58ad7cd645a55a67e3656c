@@ -1,0 +1,2 @@
+
+e4f4110e2593b1f19ea7a9981b453df010eeb786	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/eslint-loader","integrity":null,"time":1657264515839,"size":"262","metadata":{"time":1657264515839,"url":"https://registry.npm.taobao.org/eslint-loader","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:15 GMT","location":"https://registry.npmmirror.com/eslint-loader"},"status":301}}

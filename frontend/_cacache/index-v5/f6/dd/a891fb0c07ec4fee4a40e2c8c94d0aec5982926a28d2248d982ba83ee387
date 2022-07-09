@@ -1,0 +1,2 @@
+
+f9a229d11af525dceb10160836037a22a8df5cae	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/nwsapi/2.2.0/nwsapi-2.2.0.tgz","integrity":"sha1-IEh5qePQaP8qVROcLHcngGgaOLc=","time":1657264580410,"size":19559,"metadata":{"time":1657264563516,"url":"https://cdn.npmmirror.com/packages/nwsapi/2.2.0/nwsapi-2.2.0.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 14:58:12 GMT","etag":"\"F417ED0D98A6CD83340C3B35E0F195C9\"","last-modified":"Wed, 26 Jan 2022 21:41:13 GMT"}}}

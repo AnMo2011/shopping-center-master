@@ -1,0 +1,2 @@
+
+72287fcdb9be8c6d87341d4b94a2f5282f69962a	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/espree/6.2.1/espree-6.2.1.tgz","integrity":"sha1-d/xy4f10SiBSwg84pbV1gy6Cc0o=","time":1657264595461,"size":19727,"metadata":{"time":1657264578527,"url":"https://cdn.npmmirror.com/packages/espree/6.2.1/espree-6.2.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Thu, 07 Jul 2022 16:13:48 GMT","etag":"\"EB5118827D9B360274825681D5C0FABB\"","last-modified":"Wed, 26 Jan 2022 13:29:48 GMT"}}}

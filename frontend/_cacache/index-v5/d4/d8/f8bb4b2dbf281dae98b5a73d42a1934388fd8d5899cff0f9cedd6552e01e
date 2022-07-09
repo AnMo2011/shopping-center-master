@@ -1,0 +1,2 @@
+
+415f4c23300e8f3dbbbde84648b31bcf55c93239	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/vue-eslint-parser","integrity":null,"time":1657264524622,"size":"262","metadata":{"time":1657264524621,"url":"https://registry.npm.taobao.org/vue-eslint-parser","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Fri, 08 Jul 2022 07:15:24 GMT","location":"https://registry.npmmirror.com/vue-eslint-parser"},"status":301}}

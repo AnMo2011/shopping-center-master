@@ -42,7 +42,7 @@ public enum ResponseStatusEnum {
 
     PLEASE_SELECT_UPLOAD_FILE(HttpStatus.INTERNAL_SERVER_ERROR.value(), "请选择上传文件", "请选择上传文件"),
     UPLOADING_OF_EMPTY_FILES_IS_NOT_ALLOWED(HttpStatus.INTERNAL_SERVER_ERROR.value(), "不允许上传空文件", "不允许上传空文件"),
-
+    DELETE_IMAGE_ADDRESS_IS_EMPTY(HttpStatus.INTERNAL_SERVER_ERROR.value(), "删除图像地址为空", "删除图像地址为空"),
     ;
 
     /**

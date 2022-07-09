@@ -1,5 +1,6 @@
 package com.ejzblog.shopping.controller;
 
+import cn.hutool.core.util.StrUtil;
 import com.ejzblog.shopping.annotation.TokenValidation;
 import com.ejzblog.shopping.result.ResponseResultDTO;
 import com.ejzblog.shopping.service.OssService;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import static com.ejzblog.shopping.enums.ResponseStatusEnum.DELETE_IMAGE_ADDRESS_IS_EMPTY;
 import static com.ejzblog.shopping.enums.ResponseStatusEnum.PLEASE_SELECT_UPLOAD_FILE;
 import static com.ejzblog.shopping.enums.ResponseStatusEnum.UPLOADING_OF_EMPTY_FILES_IS_NOT_ALLOWED;
 
@@ -38,6 +40,7 @@ public class OssController {
 
     /**
      * 上传
+     *
      * @param file 文件
      * @return
      */
@@ -64,6 +67,7 @@ public class OssController {
 
     /**
      * 删除
+     *
      * @param url 图片地址
      * @return
      */
@@ -73,6 +77,10 @@ public class OssController {
     @ApiOperationSupport(order = 200)
     @DeleteMapping
     public ResponseResultDTO<Void> removeOss(String url) {
+        if (StrUtil.isBlank(url)) {
+            return ResponseResultDTO.unSuccess(DELETE_IMAGE_ADDRESS_IS_EMPTY);
+        }
+
         OssService.deleteOss(url);
         return ResponseResultDTO.success(null);
     }

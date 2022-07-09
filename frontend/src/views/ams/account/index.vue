@@ -15,6 +15,7 @@
       >
     </div>
 
+    <!-- 查询账户数据列表 -->
     <el-table ref="singleTable" :data="tableData" border>
       <el-table-column type="index" label="序号" width="50"></el-table-column>
       <el-table-column
@@ -47,6 +48,7 @@
       </el-table-column>
     </el-table>
 
+    <!-- 分页 -->
     <div class="block">
       <el-pagination
         :current-page="current"
@@ -58,6 +60,8 @@
         @current-change="handleCurrentChange"
       />
     </div>
+
+    <!-- 创建新的账户 -->
     <el-dialog title="创建新的账户" :visible.sync="dialogFormVisible">
       <el-form :model="dateFrom" :rules="rules" ref="addAccount">
         <el-form-item label="账号" prop="account">
@@ -67,7 +71,19 @@
           <el-input v-model="dateFrom.nickName" autocomplete="off"></el-input>
         </el-form-item>
         <el-form-item label="头像" prop="avatar">
-          <el-input v-model="dateFrom.avatar" autocomplete="off"></el-input>
+          <el-upload
+            ref="productFileidTwo"
+            :file-list="logofileListTwo"
+            :headers="headers"
+            :action="logoAction"
+            :on-success="handleAvatarSuccess"
+            :on-remove="removedetal"
+            list-type="picture-card"
+            accept="image/*"
+            :limit="1"
+          >
+            <i class="el-icon-plus"></i>
+          </el-upload>
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
@@ -82,11 +98,13 @@
 
 <script>
 import {
-  accountList,
-  updateAccountUseStatus,
+  accountListApi,
+  updateAccountUseStatusApi,
   createAccountApi,
+  uploadImgApi,
+  delImgApi,
 } from "@/api/account";
-
+import { getToken } from "@/utils/auth";
 export default {
   data() {
     return {
@@ -95,10 +113,18 @@ export default {
       total: 0,
       tableData: [],
       listuser: [],
+      logofileListTwo: [],
+      headers: { token: getToken() },
       phone: undefined,
       showup: false,
       dialogFormVisible: false,
-      dateFrom: {},
+      dateFrom: {
+        account: undefined, // 账号
+        nickName: undefined, // 昵称
+        avatar: undefined, // 头像
+      },
+      logoAction: process.env.VUE_APP_BASE_API + "/oss-do",
+      imageUrl: "",
       rules: {
         account: [{ required: true, message: "输入不能为空", trigger: "blur" }],
         nickName: [
@@ -137,7 +163,7 @@ export default {
       this.getlist();
     },
     getlist() {
-      accountList({
+      accountListApi({
         account: this.phone,
         pageCurrent: this.current,
         pageSize: this.size,
@@ -149,7 +175,7 @@ export default {
       });
     },
     useStatus(id) {
-      updateAccountUseStatus(id).then((res) => {
+      updateAccountUseStatusApi(id).then((res) => {
         if (res.code === 200) {
           this.$message({
             message: res.message,
@@ -166,14 +192,40 @@ export default {
     },
     onCancel() {
       this.dialogFormVisible = false;
-      this.$message(
-        {
-          message: "取消",
-          type: "warning",
-        },
-        this.getlist()
-      );
+      this.$message({
+        message: "取消",
+        type: "warning",
+      });
+      this.getlist();
     },
+    // 上传图片
+    handleAvatarSuccess(res, file) {
+      this.dateFrom.avatar = res.result;
+    },
+    beforeAvatarUpload(file) {
+      const isJPG = file.type === "image/jpeg";
+      const isLt2M = file.size / 1024 / 1024 < 2;
+    },
+    // 删除图片地址
+    removedetal(file) {
+      const filePath = file.response.result;
+      console.log("删除的图片地址为：" + filePath);
+      delImgApi(filePath).then((res) => {
+        if (res.code === 200) {
+          this.$message({
+            message: res.message,
+            type: res.success,
+          });
+          this.getlist();
+        } else {
+          this.$message({
+            message: res.message,
+            type: res.success,
+          });
+        }
+      });
+    },
+    // 创建
     createAccount(formName) {
       this.$refs[formName].validate((valid) => {
         if (valid) {
@@ -230,5 +282,32 @@ export default {
   background-color: #fff;
   /* margin-top: 20px; */
   /* margin: 40px auto; */
+}
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
 }
 </style>

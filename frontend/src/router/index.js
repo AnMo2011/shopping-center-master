@@ -56,6 +56,21 @@ export const constantRoutes = [
   },
 
   {
+    path: '/profile',
+    component: Layout,
+    redirect: '/profile/index',
+    hidden: true,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/profile/index'),
+        name: 'Profile',
+        meta: { title: 'Profile', icon: 'user', noCache: true }
+      }
+    ]
+  },
+
+  {
     path: '/ams',
     component: Layout,
     redirect: '/ams/account',
@@ -66,13 +81,13 @@ export const constantRoutes = [
         path: 'account',
         name: 'Account',
         component: () => import('@/views/ams/account/index'),
-        meta: { title: '平台账户管理', icon: 'dashboard' }
+        meta: { title: '平台账户管理', icon: 'el-icon-s-custom' }
       },
       {
         path: 'banner',
         name: 'Banner',
         component: () => import('@/views/ams/banner/index'),
-        meta: { title: '轮播图管理', icon: 'dashboard' }
+        meta: { title: '轮播图管理', icon: 'el-icon-loading' }
       },
       {
         path: 'brand',

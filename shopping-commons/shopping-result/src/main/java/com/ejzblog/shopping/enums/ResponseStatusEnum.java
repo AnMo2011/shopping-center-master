@@ -40,6 +40,8 @@ public enum ResponseStatusEnum {
     INCORRECT_USERNAME_OR_PASSWORD(HttpStatus.INTERNAL_SERVER_ERROR.value(), "账号或密码错误", "账号或密码错误"),
     ACCOUNT_IS_DISABLED(HttpStatus.INTERNAL_SERVER_ERROR.value(), "帐户已被禁用", "帐户已被禁用"),
 
+    PLEASE_SELECT_UPLOAD_FILE(HttpStatus.INTERNAL_SERVER_ERROR.value(), "请选择上传文件", "请选择上传文件"),
+    UPLOADING_OF_EMPTY_FILES_IS_NOT_ALLOWED(HttpStatus.INTERNAL_SERVER_ERROR.value(), "不允许上传空文件", "不允许上传空文件"),
 
     ;
 

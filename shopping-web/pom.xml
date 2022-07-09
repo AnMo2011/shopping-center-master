@@ -43,6 +43,12 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.ejzblog.shopping</groupId>
+            <artifactId>shopping-oss-cloud</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
     </dependencies>
 
     <modules>

@@ -6,12 +6,12 @@
 
     <parent>
         <groupId>com.ejzblog.shopping</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>shopping-cloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>shopping-cloud</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>shopping-oss-cloud</artifactId>
+    <packaging>jar</packaging>
 
     <licenses>
         <license>
@@ -23,28 +23,20 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <scope>provided</scope>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.ejzblog.pet</groupId>
-            <artifactId>pet-common</artifactId>
-            <version>${project.parent.version}</version>
-            <scope>provided</scope>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
         </dependency>
 
     </dependencies>
-
-    <modules>
-        <module>shopping-oss-cloud</module>
-    </modules>
 
 </project>

@@ -1,0 +1,2 @@
+
+89e034a809fe5e8fc14bdde1b71673419be0a8ee	{"key":"make-fetch-happen:request-cache:https://cdn.npmmirror.com/packages/regexpp/2.0.1/regexpp-2.0.1.tgz","integrity":"sha1-jRnTHPYySCtYkEn4KB+T28uk0H8=","time":1657264592280,"size":124939,"metadata":{"time":1657264555405,"url":"https://cdn.npmmirror.com/packages/regexpp/2.0.1/regexpp-2.0.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"max-age=86400","content-type":"application/octet-stream","date":"Fri, 08 Jul 2022 01:32:08 GMT","etag":"\"51DB7E6B68028251432F3BE0D96415BD\"","last-modified":"Wed, 26 Jan 2022 13:24:12 GMT"}}}

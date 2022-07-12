@@ -12,7 +12,7 @@ import java.util.Date;
 
 /**
  * <p>
- * 活动位
+ * Banner图
  * </p>
  *
  * @author Mango
@@ -23,7 +23,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString(callSuper = true)
-@TableName(autoResultMap = true, value ="ams_banner")
+@TableName(autoResultMap = true, value = "ams_banner")
 public class BannerDO extends AbstractBaseDO<BannerDO> {
 
     private static final long serialVersionUID = 3371787107951194875L;
@@ -56,7 +56,7 @@ public class BannerDO extends AbstractBaseDO<BannerDO> {
      * 跳转路径
      */
     @TableField("path")
-    private Integer path;
+    private String path;
 
     /**
      * 活动状态：0->默认不是活动；1->活动开始；2->活动结束
@@ -75,5 +75,11 @@ public class BannerDO extends AbstractBaseDO<BannerDO> {
      */
     @TableField("activity_end_time")
     private Date activityEndTime;
+
+    /**
+     * 数字越小 排序优先级越高 一级类目默认0
+     */
+    @TableField("sort_order")
+    private Integer sortOrder;
 
 }

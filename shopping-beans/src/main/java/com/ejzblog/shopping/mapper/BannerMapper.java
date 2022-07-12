@@ -5,7 +5,7 @@ import com.ejzblog.shopping.domain.BannerDO;
 
 /**
  * <p>
- * 活动位 Mapper 接口
+ * Banner图 Mapper 接口
  * </p>
  *
  * @author Mango

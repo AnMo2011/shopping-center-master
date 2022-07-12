@@ -66,14 +66,13 @@
       ></el-table-column>
       <el-table-column label="操作" width="200">
         <template slot-scope="scope">
-          <el-button
-            type="success"
-            size="mini"
-            @click="updateById(scope.row.id)"
-          >
+          <el-button type="success" size="mini" @click="updateById(scope.row)">
             修改
           </el-button>
-          <el-button type="text" @click="removeBanner(scope.row.id)"
+          <el-button
+            type="danger"
+            size="mini"
+            @click="removeBanner(scope.row.id)"
             >删除</el-button
           >
         </template>
@@ -102,7 +101,7 @@
         <el-form-item label="Banner地址" prop="bannerUrl">
           <el-upload
             ref="productFileidTwo"
-            :file-list="logofileListTwo"
+            :file-list="logofileList"
             :headers="headers"
             :action="logoAction"
             :on-success="handleAvatarSuccess"
@@ -125,8 +124,10 @@
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
-        <el-button type="primary" @click="onCancel">取 消</el-button>
-        <el-button type="primary" @click="create('addBanner')">确 定</el-button>
+        <el-button type="danger" @click="onCancel">取 消</el-button>
+        <el-button type="primary" @click="submitForm('addBanner')"
+          >确 定</el-button
+        >
       </div>
     </el-dialog>
   </div>
@@ -136,10 +137,8 @@
 import {
   bannerListApi,
   createApi,
-  getdetailsByIdApi,
   updateByIdApi,
   removeByIdApi,
-  uploadImgApi,
   delImgApi,
 } from "@/api/banner";
 
@@ -152,12 +151,17 @@ export default {
       total: 0,
       tableData: [],
       listuser: [],
-      logofileListTwo: [],
+      logofileList: [],
       headers: { token: getToken() },
       title: undefined,
-      showup: false,
       dialogFormVisible: false,
-      dateFrom: {},
+      dateFrom: {
+        title: undefined, // 标题
+        bannerUrl: undefined, // Banner地址
+        pathType: undefined, // 路径类型：0->默认不跳转；1->商品；2->APP页面；3->外部地址
+        path: undefined, // 跳转路径
+        sortOrder: undefined, // 数字越小 排序优先级越高 一级类目默认0
+      },
       logoAction: process.env.VUE_APP_BASE_API + "/oss-do",
       imageUrl: "",
       rules: {
@@ -187,6 +191,15 @@ export default {
     // 创建弹框
     addBanner() {
       this.dialogFormVisible = true;
+    },
+    //更新
+    updateById(row) {
+      this.dateFrom = {};
+      // console.log(row);
+      this.dateFrom = row;
+      // console.log(this.form);
+      this.dialogFormVisible = true;
+      // this.form.name = name
     },
     // 分页
     handleSizeChange(val) {
@@ -253,31 +266,56 @@ export default {
     },
 
     // 创建
-    create(formName) {
+    submitForm(formName) {
       this.$refs[formName].validate((valid) => {
         if (valid) {
+          if (!this.dateFrom.id) {
+            createApi(this.dateFrom).then((res) => {
+              if (res.code === 200) {
+                this.$message({
+                  message: res.message,
+                  type: res.success,
+                });
+                this.getlist();
+              }
+            });
+          } else {
+            updateByIdApi(this.dateFrom).then((res) => {
+              if (res.code === 200) {
+                this.$message({
+                  message: res.message,
+                  type: res.success,
+                });
+                this.getlist();
+              }
+            });
+          }
+          this.logofileList = [];
+          this.dateFrom = {
+            title: undefined, // 标题
+            bannerUrl: undefined, // Banner地址
+            pathType: undefined, // 路径类型：0->默认不跳转；1->商品；2->APP页面；3->外部地址
+            path: undefined, // 跳转路径
+            sortOrder: undefined, // 数字越小 排序优先级越高 一级类目默认0
+          };
+
           this.dialogFormVisible = false;
-          createApi(this.dateFrom).then((res) => {
-            if (res.code === 200) {
-              this.$message({
-                message: res.message,
-                type: res.success,
-              });
-              this.getlist();
-            } else {
-              this.$message({
-                message: res.message,
-                type: res.success,
-              });
-            }
-          });
         } else {
           console.log("error submit!!");
           return false;
         }
       });
     },
+
     // 修改
+    create(row) {
+      this.dateFrom = {};
+      // console.log(row);
+      this.dateFrom = row;
+      // console.log(this.form);
+      this.dialogFormVisible = true;
+      // this.form.name = name
+    },
 
     // 删除
     removeBanner(id) {

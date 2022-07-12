@@ -112,7 +112,6 @@ export default {
       current: 1,
       total: 0,
       tableData: [],
-      listuser: [],
       logofileListTwo: [],
       headers: { token: getToken() },
       phone: undefined,
@@ -182,11 +181,6 @@ export default {
             type: res.success,
           });
           this.getlist();
-        } else {
-          this.$message({
-            message: res.message,
-            type: res.success,
-          });
         }
       });
     },
@@ -217,11 +211,6 @@ export default {
             type: res.success,
           });
           this.getlist();
-        } else {
-          this.$message({
-            message: res.message,
-            type: res.success,
-          });
         }
       });
     },
@@ -237,11 +226,6 @@ export default {
                 type: res.success,
               });
               this.getlist();
-            } else {
-              this.$message({
-                message: res.message,
-                type: res.success,
-              });
             }
           });
         } else {

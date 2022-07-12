@@ -13,7 +13,7 @@ export function accountListApi(data) {
 }
 
 /**
- * 获取个人信息
+ * 修改账户状态
  * @param username 用户名
  */
 export function updateAccountUseStatusApi(id) {
